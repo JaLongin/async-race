@@ -1,0 +1,85 @@
+body {
+    background-color: rgba(34, 5, 140, 0.351);
+}
+.btn {
+    color: rgb(231, 235, 238);
+    background-color: rgba(34, 5, 140, 0.351);
+    border: 1px rgb(231, 235, 238);
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+    transition: all;
+    transition-duration: 500ms;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgba(34, 5, 140, 0.656);
+}
+.hidden{
+    display: none;
+}
+#wins-table{
+    border-collapse: collapse;
+    text-align: center;
+}
+#header-row{
+    color: rgb(231, 235, 238);
+    background-color: rgba(34, 5, 140, 0.656);
+}
+.th{
+    min-width: 50px;
+    padding: 5px;
+}
+.car-bottom{
+  border-bottom: 3px black dashed;
+  margin-bottom: 35px;
+  height: 83px;
+  position: relative;
+}
+.flag-image{
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  right: 40px;
+}
+.car-image{
+  position: absolute;
+  z-index: -1;
+}
+.bottom-buttons{
+  margin-bottom: -20px;
+}
+.car-head{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin: 25px 0 5px;
+}
+.btn.inactive{
+  transition: none;
+  background-color: rgb(179, 177, 175);
+}
+.btn.inactive:hover{
+  background-color: rgb(179, 177, 175);
+  cursor: default;
+}
+#grg-page{
+  position: relative;
+}
+.pop-up{
+  position: absolute;
+  margin: auto;
+  font-size: 50px;
+  z-index: 2;
+  height: 50px;
+  width: 240px;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+}
+.car-block.selected{
+  border: 5px green solid;
+}

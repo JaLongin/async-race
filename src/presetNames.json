@@ -1,0 +1,26 @@
+{
+  "brand": [
+    "Toyota",
+    "Audi",
+    "BMW",
+    "Wolkswagen",
+    "Lada",
+    "Pegeout",
+    "Renault",
+    "KIA",
+    "Ford",
+    "Nissan"
+  ],
+  "models": [
+    "Trueno",
+    "Sedan",
+    "Sportage",
+    "Rio",
+    "X6",
+    "Mustang",
+    "Accord",
+    "Octavia",
+    "GT",
+    "NTR"
+  ]
+}
