@@ -81,5 +81,6 @@ body {
   text-align: center;
 }
 .car-block.selected{
-  border: 5px green solid;
+  outline: 10px rgb(128, 126, 0) solid;
+  border-radius: 5px;
 }

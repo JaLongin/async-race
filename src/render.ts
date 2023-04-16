@@ -38,7 +38,7 @@ function setDefaultStructure(): void {
       <br>
       <div id="buttons-block">
         <button class="btn" id="race-button">Race</button>
-        <button class="btn" id="reset-button">Reset</button>
+        <button class="btn" id="reset-button">Delete all cars</button>
         <button class="btn" id="generate-button">Generate cars</button>
       </div>
     </section>
